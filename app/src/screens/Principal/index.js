@@ -39,14 +39,15 @@ export function Principal(props){
         randomIdMessage()
     }, []);
 
-    async function saveMessage(){
-          captureScreen({
+    function saveMessage(){
+        /*captureScreen({
             format: "png",
             quality: 0.8
-          }).then(
+        }).then(
             uri => console.log("Image saved to", uri),
             error => console.error("Oops, snapshot failed", error)
-          );
+        );*/
+        console.log('Clicou')
     }
 
     return (
